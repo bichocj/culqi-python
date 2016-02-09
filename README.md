@@ -9,6 +9,7 @@ Necesitas [Pycrypto](https://www.dlitz.net/software/pycrypto/)
 ## ¿Necesitas ayuda?
 
 Estamos felices de resolver cualquier duda o pregunta que tengas.
-**Email**: Escribenos a soporte@culqi.com.
+
+Escribenos a soporte@culqi.com.
 
 Respondemos todas tus dudas en máximo 24 horas.
