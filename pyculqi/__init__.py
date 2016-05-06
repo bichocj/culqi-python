@@ -4,15 +4,14 @@
 __version__ = '1.0.0'
 
 import json
-import sys
 import logging
-
+import sys
 from requests import request
 
 if sys.version_info >= (3, 0):
-    import culqi_aes_py3 as culqi_aes
+    import pyculqi.culqi_aes_py3 as culqi_aes
 else:
-    import culqi_aes_py2 as culqi_aes
+    import pyculqi.culqi_aes_py2 as culqi_aes
 
 codigo_comercio = None
 llave_secreta = None
