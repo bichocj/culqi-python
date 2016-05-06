@@ -38,6 +38,7 @@ def encrypt(input_str, key):
 
 
 def decrypt(input_str, key):
+    input_str = str(input_str)
     key_bytes = base64.decodestring(key)
     input_bytes = base64.urlsafe_b64decode(input_str)
     iv = input_bytes[:IV_LENGTH]
