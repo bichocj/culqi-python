@@ -1,11 +1,13 @@
-# Componente de cifrado de Culqi en Python
+# Api de Culqi implementado en python
 
-Este componente de cifrado en Python hace sencillo cifrar y descifrar en AES.
+Este componente implementa las operaciones de creación de una venta, devolución y consulta.
 
 ## Requirimientos
 Nuestro componente es compatible con Python 2 y Python 3 lo puedes descargar desde [aquí](https://github.com/culqi/culqi-python/archive/1.0.zip).
 
-Sólo necesitas [Pycrypto.](https://www.dlitz.net/software/pycrypto/)
+Necesitas
+[Pycrypto.](https://www.dlitz.net/software/pycrypto/)
+requests
 
 ## ¿Necesitas ayuda?
 
