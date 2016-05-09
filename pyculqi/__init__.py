@@ -47,14 +47,14 @@ def decifrar(str):
 
 
 def do_request(method, url, data):
-    return request('POST', url, data=json.dumps(data),
-        headers= {
+    return request(method, url, data=json.dumps(data),
+        headers={
             'Content-Type': 'application/json'
         }
     )
 
 
-def crear_venta(datos, canal = 'web', extra=None):
+def crear_venta(datos, canal='web', extra=None):
     log = logging.getLogger('pyculqi::crear_venta')
     added_params = {
         param_codigo_comercio: codigo_comercio,
