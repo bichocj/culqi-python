@@ -13,5 +13,5 @@ setup(
     license='MIT',
     packages=find_packages(),
     zip_safe=False,
-    install_requires=['pycrypto', 'requests']
+    install_requires=['pycrypto==2.6.1', 'requests==2.9.1']
 )
