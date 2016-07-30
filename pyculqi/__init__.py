@@ -6,7 +6,6 @@ __version__ = '1.0.0'
 import json
 import logging
 import sys
-from requests import request
 
 if sys.version_info >= (3, 0):
     import pyculqi.culqi_aes_py3 as culqi_aes
@@ -47,6 +46,7 @@ def decifrar(str):
 
 
 def do_request(method, url, data):
+    from requests import request
     return request(method, url, data=json.dumps(data),
         headers={
             'Content-Type': 'application/json'
